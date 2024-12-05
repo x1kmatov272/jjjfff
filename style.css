@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding-top: 46px;
+}
+
+.container {
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+}
+
+.header__link {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Mulish";
+    color: #1F1534;
+    transition: 0.5s ease-in-out;
+}
+
+.header__link:hover {
+    color: red;
+}
+
+.header__link:active {
+    color: blue;
+}
+
+.hero {
+    padding-top: 91px;
+    padding-bottom: 91px;
+}
+
+.hero__textbox {
+    width: 440px;
+}
+
+.hero__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero__title {
+    font-weight: 900;
+    font-size: 45px;
+    font-family: "Mulish";
+    color: #000;
+}
+
+.hero__text {
+    font-weight: 600;
+    font-size: 19px;
+    font-family: "Mulish";
+    color: #7D7987;
+    margin: 30px 0;
+}
+
+.hero__btn {
+    width: 197px;
+    background-color: #458FF6;
+    border-radius: 55px;
+    padding: 10px 0;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.services {
+    padding-bottom: 76px;
+}
+
+.services__textbox {
+    width: 952px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.services__title {
+    font-size: 35px;
+    font-weight: 700;
+    font-family: "Mulish";
+    line-height: 56px;
+    margin-bottom: 61px;
+}
+
+.services__text {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.services__box {
+    width: 380px;
+    background-color: #cdcccf;
+    border-radius: 20px;
+    padding: 68px 78px 28px 41px;
+    transition: 0.5s ease-in-out;
+}
+
+.services__subtitle {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Mulish";
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #000000;
+    transition: 0.5s ease-in-out;
+}
+
+.services__description {
+    color: #7D7987;
+    font-size: 16px;
+    font-weight: 400;
+    transition: 0.5s ease-in-out;
+}
+
+.services__box:hover {
+    background-color: #5A98F2;
+}
+
+.services__box:hover .services__description {
+    color: #fff;
+}
+
+.services__box:hover .services__subtitle {
+    color: #fff;
+}
+
+.services__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero1__textbox {
+    margin-top: 76px;
+}
+
+.hero1__textbox h2 {
+    width: 536px;
+    height: 74px;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bobo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ota img {
+    width: 628px;
+    height: 469px;
+}
+
+.navara {
+    width: 440px;
+    margin-top: 63px;
+}
+
+.navara h3 {
+    font-family: "Mulish";
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.navara p {
+    font-family: "Mulish";
+    font-weight: 500;
+    font-size: 18px;
+    color: #7D7987;
+    margin-top: 63px;
+}
+
+.btn {
+    margin-top: 43px;
+}
+
+button {
+    width: 202px;
+    height: 57px;
+    border-radius: 100px;
+    border: 1px solid #458FF6;
+    background-color: #fff;
+    color: #458FF6;
+    transition: 0.5s ease-in-out;
+}
+
+.btn button:hover {
+    background-color: yellowgreen;
+    color: white;
+}
+
+.text {
+    width: 462px;
+    height: 57px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 18px;
+    margin-top: 153px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    width: 1180px;
+    height: 516px;
+}
+
+.card {
+    width: 380px;
+    height: 516px;
+    background-color: #FFFFFF;
+}
